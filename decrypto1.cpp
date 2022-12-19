@@ -6,7 +6,7 @@ using namespace std;
 
 int main(int argc, char* argv[]){
     
-    char ciphertext[28];
+    char* ciphertext = new char[28];
     char errorNE[59] = "     ERROR: This password was not ecrypted with Encrypto1.";
 
     if (argc == 2) { 
@@ -71,6 +71,8 @@ int main(int argc, char* argv[]){
         while (backShift < 48) backShift = 123 - (48 - backShift);
         password[i-3] = backShift;
     }
+
+    delete [] ciphertext;
 
     cout << "Password decrypted successfully: ";
     cout << " ###  " << password << "  ### " << endl;

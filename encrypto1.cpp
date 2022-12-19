@@ -11,7 +11,7 @@ int randAlphabet(); //return a-z
 
 int main(int argc, char* argv[]){
 
-    char password[50]; //extra storage for handling longer strings
+    char* password = new char[50]; //extra storage for handling longer strings
 
     //shift key: included by header // meaningless for this version
 
@@ -97,6 +97,8 @@ int main(int argc, char* argv[]){
     ciphertext[27] = '\0';
 
     cout << ciphertext << endl;
+
+    delete [] password;
 
     return 0;
 }
