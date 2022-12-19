@@ -1,5 +1,5 @@
 # encryptoC
-Password encryption and decryption software for writing/storing passwords safely. Repo includes a C++ library with global scope string encryption functions.
+Password encryption and decryption software for writing/storing passwords safely. (COMING SOON:) Repo includes a C++ library with global scope string encryption functions.
 
 ## Instructions on password encryption and decryption for personal use:
 ### 1. Compile both encryption files with:
