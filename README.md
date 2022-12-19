@@ -16,6 +16,7 @@ OR
 ```
 ./encrypt [Enter]
 MyPassword@123
+```
 
 ### 3. Input encrypted string into decrypter to receive password:
 ```
